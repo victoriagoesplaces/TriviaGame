@@ -6,139 +6,21 @@
     <title>TriviaGame</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/> 
 </head>   
 <body>
-<div class="container">
-    <div class= "row">
-        <div class="col-md-12">
-            <div class="jumbotron">
-                <img src="assets/images/background.jpg" alt="logo">
-                <h1>2018 World Cup Trivia</h1>
-            </div>
+
+    <div id="heading">
+            <img src="assets/images/background.jpg" alt="logo">
+            <h1>2018 World Cup Trivia</h1>
+        <div id="mainbody">
+        <div id="quiz">
+            <button id="start">Start</button>
+        </div>
         </div>
     </div>
-
-    <div class= "row">
-        <div class="col-md-12 questions">
-            <ol>
-                <li>What are the two teams making their debuts in the competition?</li>
-                <!-- Iceland and Panama -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">Panama&Egypt</option>
-                        <option value="2">Panama&Iceland</option>
-                        <option value="3">Iceland&Morocco</option>
-                        <option value="3">Egypt&Morocco</option>
-                </select>
-
-                <li>Who has won the World Cup more times? </li>
-                <!-- Brazil -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">Germany</option>
-                        <option value="2">Argentina</option>
-                        <option value="3">France</option>
-                        <option value="3">Brazil</option>
-                </select>
-
-                <li>Where is the World Cup taking place?</li>
-                <!-- Russia -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">Russia</option>
-                        <option value="2">Brazil</option>
-                        <option value="3">South Africa</option>
-                        <option value="3">China</option>
-                </select>
-
-                <li>What city will host the finals of the Cup</li>
-                <!-- Moscow*  Kaliningrad, Saint Petersburg,Ekaterinburg  -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">Kaliningrad</option>
-                        <option value="2">Saint Petersburg</option>
-                        <option value="3">Moscow</option>
-                        <option value="3">Ekaterinburg </option>
-                </select>
-
-                <li>How many teams will take part in the competition?</li>
-                <!-- 32 -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">38</option>
-                        <option value="2">46</option>
-                        <option value="3">52</option>
-                        <option value="3">32</option>
-                </select>
-
-                <li>How many out of the 12 World Cup stadiums in Russia were built just for the tournament? </li>
-                <!-- 9 -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">12</option>
-                        <option value="2">7</option>
-                        <option value="3">9</option>
-                        <option value="3">11</option>
-                </select>
-
-                <li>What stadium has seating outside to meet FIFA's minimum seating capacity? </li>
-                <!-- Ekaterinburg Arena -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">Kazan Arena</option>
-                        <option value="2">Luzhniki Stadium</option>
-                        <option value="3">Saint Petersburg Stadium</option>
-                        <option value="3">Ekaterinburg Arena</option>
-                </select>
-
-                <li>Who is the current holder of the World Cup coming to the 2018 tournament?</li>
-                <!-- Germany -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">Germany</option>
-                        <option value="2">Brazil</option>
-                        <option value="3">Spain</option>
-                        <option value="3">Argentina</option>
-                </select>
-
-                <li>What kind of animal is the 2018 World Cup mascot(Zabivaka)?</li>
-                <!-- Wolf* Tiger Cat Bear-->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">Cat</option>
-                        <option value="2">Tiger</option>
-                        <option value="3">Worf</option>
-                        <option value="3">Bear</option>
-                </select>
-
-                <li>How many FIFA World Cup tournaments have there been being prior to 2018?</li>
-                <!-- 20 -->
-                <select>
-                        <option selected="selected" class="holder">Please select</option>
-                        <option value="1">23</option>
-                        <option value="2">20</option>
-                        <option value="3">21</option>
-                        <option value="3">18</option>
-                </select>
-            </ol>
-        </div>
-    </div>
-
-    <div class= "row"> 
-        <div class="col-md-9"></div>
-            <div id="doneButton" class="col-md-1">
-                <button type="button" class="btn btn-info btn-lg">Done</button>
-            </div>
-            <div id="resetButton" class="col-md-2">
-                <button type="button" class="btn btn-info btn-lg">Play Again</button>
-            </div>
-        </div>
-    </div>
-
+  
  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
  <script src="assets/javascript/app.js"></script>
-
 </body>
 </html>
