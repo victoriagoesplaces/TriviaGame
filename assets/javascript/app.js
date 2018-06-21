@@ -44,7 +44,8 @@ var quiz = [{
     rightAnswer: "20"
 }];
 
-//Varible holding the game
+//Varible for the game
+
 var game = {
 correct:0,
 wrong:0,
@@ -71,8 +72,8 @@ start: function() {
         mainBox.append('<h3>' + quiz[i].question + '</h3>');
         for (var j = 0; j < quiz[i].answers.length; j++) {
         mainBox.append('<input type="radio" name="question' + '-' + i + '" value="' + quiz[i].answers[j] + '">' + quiz[i].answers[j]);
-        }
     }
+}
 
     //Displays a submit button at the bottom of the quiz
     mainBox.append('<button id="submit">Submit</button>');
