@@ -11,7 +11,6 @@ body{
     background-color: rgba(22, 20, 20, 0.726);
     width:960px;
     margin:5% auto;
-    box-sizing: border-box;
     min-height: 80%;
 }
 
@@ -109,11 +108,10 @@ input {
 
     #quiz {
         max-width: 100%;
-        margin: 0;
     }
 
     #heading {
-        max-width: 65%;
+        max-width: 70%;
     }
 
     button{
